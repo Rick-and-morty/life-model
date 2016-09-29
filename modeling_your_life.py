@@ -9,15 +9,30 @@ class Activities:
         self.time = ["hours in the day"]
         self.the_struggle = ["all of the things that make us who we are"]
 
-life = Activities()
 
+class My_old_band:
+
+    def __init__(self):
+        self.travis = "the ridculous drunk, but still my good friend"
+        self.jon = "the guy who always had my back, even at the worst times"
+        self.tyler = "me, haha no really sure what to say"
+
+life = Activities()
+shows = My_old_band()
 if life.tv + life.music != life.time:
     print(life.stress)
 
 else:
     print("take a break and clear your head")
 
-
 print(life.the_struggle)
 print("tyler, you never jog, don't lie to yourself, or joel hahahahah, you just think")
+
+shows.travis = input("is travis sober? Y/n ")
+if "n":
+    print("looks like things are going to get interesting again!")
+else:
+    print("looks like we may have a show worth a damn for once!")
+
+
 # the best i could do on today's assignment
